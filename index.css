@@ -1,0 +1,20 @@
+/* p {
+    margin: 5px;
+}
+
+#content :nth-child(2) :first-child :nth-child(2) :last-child b {
+    font-size: 50px;
+} */
+
+html body {
+    margin: 50px;
+    background-color: bisque;
+}
+
+#content {
+    display: flex
+}
+
+#content div {
+    align-content: space-between;
+}
