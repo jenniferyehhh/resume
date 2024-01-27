@@ -24,6 +24,7 @@ html body {
 h2 {
     padding-top: 50px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
 }
 
 #navigation {
@@ -73,8 +74,18 @@ h2 {
 
 #title {
     color: #bd5d38;
-    font-size: 50px;
+    font-size: 80px;
 }
+
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
 #main-content {
     display: flex;
 }
@@ -149,15 +160,13 @@ h2 {
     display: flex;
 }
 
-#skills {
-
-}
 
 .skilltype {
     flex: 33%;
 }
 
 #avatar {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
 }
